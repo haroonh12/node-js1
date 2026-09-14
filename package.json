@@ -1,0 +1,19 @@
+{
+  "name": "production-ecs-demo",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --runInBand",
+    "lint": "eslint src tests"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.5",
+    "jest": "^30.5.1",
+    "supertest": "^7.2.2"
+  }
+}
